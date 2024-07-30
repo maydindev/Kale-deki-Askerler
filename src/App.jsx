@@ -44,7 +44,7 @@ export default function App() {
           {enemiesData.map((enemy) => {
             return (
               <Enemy currentImage={enemy.currentImage} position={enemy.position} orientation={enemy.orientation} />
-            )
+              )
           })}
           {/*------Enemy elementleriniz yukarıda------*/}
         </div>
